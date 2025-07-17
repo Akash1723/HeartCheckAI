@@ -1,0 +1,26 @@
+.output-cont {
+  width: 50%;
+  height: auto;
+  margin: 0 auto 6% auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #000000;
+  box-shadow: 0 0 20px rgba(192, 194, 195, 0.84);
+}
+
+.output-cont p{
+  color:white;
+  font-size: 1.2em;
+  animation: pulseScale 1.2s ease-in-out infinite;
+  transition: transform 0.3s;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.app-header {
+  background-color: #000000; /* dark gray */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  margin: 0;
+  font-size: 28px;
+  color:white;
+  font-family: 'Orbitron', sans-serif; /* futuristic font */
+  letter-spacing: 1px;
+}

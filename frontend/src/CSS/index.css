@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.error-text{
+    color:red;
+    display: block;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  background-color: rgba(241, 239, 239, 0.881);
+}
